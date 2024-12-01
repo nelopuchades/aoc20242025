@@ -1,5 +1,7 @@
-package org.nelopuchades
+import ex1.Exercise1
 
 fun main() {
-    println("Hello World!")
+    val ex1 = Exercise1().get()
+    println("Total Difference: ${ex1[0]}")
+    println("Similarity Score: ${ex1[1]}")
 }
